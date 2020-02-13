@@ -1,0 +1,8 @@
+.Object: A collection of NAME/VALUE pairs
+-JSON object literal: 
+    var objeto = {
+	key1: value,  (key/value pairs)
+	key2: value,
+	key3: value
+    };		
+-
