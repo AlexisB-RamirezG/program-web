@@ -8,7 +8,7 @@ function Person(firstname, lastname) {
     this.lastname = lastname;
 }
 
-// Pointing to the class' prototype, not the instance prototype.
+// Pointing to the class' prototype, not the instance prototype. Whatever you change in one, it will reflects in the others.
 Person.prototype.greet = function() {
     console.log(`Hello, ${this.firstname} ${this.lastname}`);
 }
