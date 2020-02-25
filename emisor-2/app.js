@@ -1,3 +1,4 @@
+// Node.js's native emitter
 var Emitter = require('events');
 // Imports config keywords
 var config = require('./config').events;
@@ -14,4 +15,6 @@ emtr.on(config.GREET, () => {
 });
 
 console.log(`Hello!`);
-emtr.emit('greet');
+emtr.emit(config.GREET);
+emtr.emit(config.GREET);
+emtr.emit(config.GREET);
